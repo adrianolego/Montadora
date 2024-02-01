@@ -3,7 +3,7 @@
 Projeto no qual temos 3 aplicações onde 2 estão dentro do kubernetes e 1 outro fora.
 Objetivo é estudos no Kubernetes ao exercitar a configuração, manupulação e uso dos comandos para controle dos containeres. 
 
-![Alt text](Montadora-1.jpg)
+![Alt text](Montadora.jpg)
 
 ## Pré requisitos
 Rodar o docker compose na aplicação raiz para subir o banco de dados, subir as demais aplicações, chamar o endereço para retornar os dados http://localhost:8081/veiculo/v1
