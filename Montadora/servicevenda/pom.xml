@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.serviceveiculo</groupId>
-	<artifactId>serviceveiculo</artifactId>
+	<groupId>com.example.servicevenda</groupId>
+	<artifactId>servicevenda</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>serviceveiculo</name>
-	<description>Service estoque de veiculos</description>
+	<name>servicevenda</name>
+	<description>Service venda de veiculos</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
