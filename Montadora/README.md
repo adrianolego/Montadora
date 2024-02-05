@@ -59,3 +59,16 @@ Ou seja, caso queira efetuar a alteração no cluster, retire estas flags.
   `kubectl run microservice-bffvenda --image=microservice-bffvenda:v1 --port=80 # --dry-run -o yaml`
 
   `kubectl run microservice-servicevenda --image=microservice-servicevenda:v1  --port=80 # --dry-run -o yaml`
+- Criar/expor deployments como serviços
+
+  `kubectl create deployment microservice-bffvenda --image=microservice-bffvenda:v1`
+
+  `kubectl create deployment microservice-servicevenda --image=microservice-servicevenda:v1`
+  
+  `kubectl expose deploy microservice-bffvenda --name=microservice-bffvenda --port=80 --type=ClusterIP # --dry-run -o yaml`
+
+  `kubectl expose deploy microservice-servicevenda --name=microservice-servicevenda --port=80 --type=NodePort # --dry-run -o yaml`
+
+### Comandos
+ - Listar pods -> `kubectl get pods -o wide`
+
